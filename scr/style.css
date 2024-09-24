@@ -2,13 +2,57 @@ body{
     background-color:rgb(188, 147, 143) ;
 }
 
-a{
-text-align: center;
+a {
+color: #008000;
+cursor: pointer;
 }
 
+
 .croissant{
+    
     max-width: 100%;
     border-radius: 10px;
     display: block;
     margin: 30px auto;
+}
+h1{
+text-align: center;
+}
+p{
+    text-align: center;
+}
+.links-photo{
+    display: flex;
+    justify-content:center;
+    gap:10px;
+}
+.homepage{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+.contact{
+    display: flex;
+    justify-content:center;
+    gap:10px;
+
+}
+.info {
+    display: flex;
+    justify-content: center;
+    
+}
+.full-body{
+    background-color: #BC938F;
+}
+img{
+    width: 900px;
+    height:auto ;
+    margin: auto;
+    display:block;
+    border-radius: 10px;
+}
+.photo{
+    margin-top: 15px;
 }
